@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>user login and reg </title>
+	    <link rel="stylesheet" type="text/css" href="styleyy.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		.cotainer{
+	
+	margin-bottom: 5px;
+	color: black;
+	font-weight: 500px;
+	
+   margin: auto;
+   border:5px solid #5C292B;
+	font-size: 22px;
+	 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+  
+    background: #F7F3DD;
+ 
+     padding: 10px;
+}
+.col-md-6 .form-control {
+    margin: auto;
+    max-width: 900px;
+    font-size: 30px;
+    font-weight: 500px;
+    margin: auto;
+    padding: 10px;
+}
+ .btn{
+font-size: 20px;
+}
+.saiz{
+font-size: 30px;
+}
+.regester{
+font-size: 20px;
+}
+.btnn{
+  
+   font-size: 18px;
+   	float: left;
+	padding:3px;
+	
+}
+
+		
+		</style>
+    </head>
+	<div class="cotainer">
+		<div class="row">
+			<div class="col-md-6">
+			<h1 style="font-size:45px; font-family:verdana; margin: center;"> Login </h1>
+			<form action="validation.php" method="post">
+			<div class="saiz">
+			<label>username</label><br>
+			<input type="text" name="user" class="form-control" required>
+</div>			
+             <div class="saiz">
+			<br><label>password</label><br>
+			<input type="password" name="password" class="form-control" required>
+</div>			
+            <br><button type="submit" class="btn"> login </button><br><br>
+			<br>
+<i class="btnn"> <a href="reg.html" >Regester</a></i>
+<br><br>
+<i class="btnn"> <a href="admin.html" > For Admin</a></i><br><br>
+</div>
+</form>
+</div>
+</div>
+
+ 
+
+
+	
+	
+	
+    <body>
+	<center> <h1> 
+	</h1> </center>
+    </body>
+</html>
+ <?php
+ 
+ 
+	
+//  $con= mysqli_connect("localhost", "root","");
+  //  mysqli_select_db($con , "userreg");
+	
+	//$name = $_POST["user"];
+	//$pass = $_POST["password"];
+	
+	//$s = "select * from usertable where name = '$name'";
+	//$result = mysqli_query($con , $s);
+	//$num = mysql_num_rows($result);
+	
+	//if($num == 1){ 
+	//echo" username already taken";
+	//} else{
+	//$reg = " insert into usertable(name , password) values ('$name' , '$pass')";
+	//mysql_query($con , $reg);
+	//echo" reggggg sucess,,,,,,,,,,,,,,,,"
+	//}
+
+  ?>

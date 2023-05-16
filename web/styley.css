@@ -1,0 +1,36 @@
+
+body{
+	background-image: url("background.jpg");
+	 
+	
+}
+
+.arr div {
+	
+	
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #ccc;
+	font-weight: 400;
+}
+
+.arr input, .arr textarea {
+	width: 75%;
+	padding:10px;
+	margin-bottom: 17px;
+	outline: none;
+	border:3px solid #5C292B ;
+	
+	
+}
+.col-md-6 div{
+	
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #ccc;
+	font-weight: 400;
+	
+	
+}
+
+

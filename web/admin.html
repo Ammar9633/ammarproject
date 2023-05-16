@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> admin login </title>
+	    <link rel="stylesheet" type="text/css" href="styleyy.css">
+        <style>
+		.cotainer{
+	
+	margin-bottom: 5px;
+	color: black;
+	font-weight: 500px;
+	max-width: 800px;
+   margin: auto;
+   border:5px solid #5C292B;
+	font-size: 22px;
+	 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+  
+    background: #F7F3DD;
+ 
+  padding: 10px;
+}
+.col-md-6 .form-control {
+    max-width: 500px;
+    margin: auto;
+    max-width: 900px;
+    font-size: 30px;
+    font-weight: 500px;
+    margin: auto;
+    padding: 10px;
+}
+ .btn{
+font-size: 20px;
+}
+.saiz{
+font-size: 30px;
+}
+		</style>
+    </head>
+	<div class="cotainer">
+		<div class="row">
+			<div class="col-md-6">
+			<h1> Login  </h1>
+			<form action="validationadmin.php" method="post">
+			<div class="saiz">
+			<label>ID</label><br>
+			<input type="id" name="id" class="form-control" required><br><br>
+</div>			
+             <div class="saiz">
+			<label>password</label>
+			<input type="password" name="password" class="form-control" required>
+</div>			
+         <br>   <button type="submit" class="btn"> login </button>
+</form>
+</div>
+</div>
+        
+</form>
+</div>
+
+	
+	
+	
+	
+    <body>
+	<center> <h1> 
+	</h1> </center>
+    </body>
+</html>
+ <?php
+//  $con= mysqli_connect("localhost", "root","");
+  //  mysqli_select_db($con , "userreg");
+	
+	//$name = $_POST["user"];
+	//$pass = $_POST["password"];
+	
+	//$s = "select * from usertable where name = '$name'";
+	//$result = mysqli_query($con , $s);
+	//$num = mysql_num_rows($result);
+	
+	//if($num == 1){ 
+	//echo" username already taken";
+	//} else{
+	//$reg = " insert into usertable(name , password) values ('$name' , '$pass')";
+	//mysql_query($con , $reg);
+	//echo" reggggg sucess,,,,,,,,,,,,,,,,"
+	//}
+
+  ?>
